@@ -1,0 +1,65 @@
+.login-container, .register-conteiner{
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 500px;
+    height: 100%;
+    border: 2px solid #4a768f;
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+
+    h1{
+        
+        text-align: center;
+        
+    }
+    .error-message {
+        color: red;
+        margin-bottom: 10px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        input{
+            height: 40px;
+            border-radius: 8px;
+            font-size: 20px;
+            border: none;
+            padding: 10px 15px;
+            background-color: #2f4c5e;
+            color: white;
+
+            
+        }
+        input::placeholder{
+            color: white;
+        }
+        button{
+            background-color: #569bc4;
+            height: 50px;
+            border-radius: 8px;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+            color: white;
+            margin-bottom: 30px;
+            transition: all ease-in-out 0.3s;
+        }
+        button:hover{
+            background-color: #4e8cb0;
+            transform: translateY(-2px);
+        }
+    }
+    .register-link, .login-link{
+        a{
+            color: #569bc4;
+            font-size: 18px;
+            text-decoration: none;
+            
+        }
+        
+    }
+
+}
